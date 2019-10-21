@@ -23,15 +23,28 @@ header {
 
 header img {
     width: 50px;
-    height: 50px;
-    border-radius: 15px;
-    margin: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 8px auto auto 10px;
+    margin-right: 5px;
+}
+
+header button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    transform: translateY(-18px);
+}
+header button a {
+    color: white;
 }
 
 #navbar {
     float: right;
     margin: 15px;
-  padding: 5px;
+    padding: 5px;
 }
 
 #navbar a {
@@ -170,10 +183,11 @@ h3 i {
     padding: 5px;
     transition: transform .2s;
 }
+
 @media screen and (max-width: 800px) {
-  .contact div {
-    display: block;
-  }
+    .contact div {
+        display: block;
+    }
 }
 
 /* FOOTER */
@@ -186,4 +200,3 @@ footer a {
     color: #af3535;
     font-weight: 500;
 }
-
