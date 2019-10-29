@@ -32,6 +32,7 @@ header img {
     background-color: white;
     margin: 8px auto auto 10px;
     margin-right: 5px;
+    margin-bottom: 240px;
 }
 
 #navbar {
@@ -60,7 +61,7 @@ header img {
     font-size: 18px;
     font-weight: 400;
     transition: .5s;
-    margin-top: 80px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -76,27 +77,30 @@ header img {
 /*WELCOME*/
 
 .welcome {
-    height: 100vh;
+    height: 40vh;
     text-align: center;
+    background-color: white;
+    padding-top: 10px;
 }
 
 .welcome h1 {
-    padding-top: 45vh;
+    padding-top: 10vh;
     font-size: 45px;
-    color: white;
-    font-weight: 500;
+    color: black;
+    font-weight: 300;
 }
 
 .welcome h2 {
     margin-top: -30px;
     color: #943535;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 /*IMAGE-SECTIONS*/
 
 .image-section {
     height: 30vh;
+    background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -114,7 +118,7 @@ header img {
 }
 
 #three {
-    height: 40vh;
+    height: 70vh;
     background-image: url("https://github.com/CHeerUPz/Portfolio/blob/master/me.jpeg?raw=true");
     margin-bottom: 0;
 }
@@ -122,20 +126,23 @@ header img {
 /*PROJECTS*/
 
 #projects {
-    padding-bottom: 80px;
+    background-color: white;
+    padding-bottom: 120px;
+    padding-top: 20px;
 }
 
 #projects h3 {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 300;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 30px;
-    color: white;
+    padding-bottom: 20px;
+    color: black;
 }
 
 h3 i {
     color: #943535;
+    font-weight: 500;
 }
 
 .project-section {
@@ -168,7 +175,7 @@ h3 i {
 
 .project-section a p {
     text-align: center;
-    color: #E9D7A9;
+    color: black;
     opacity: 0;
     font-size: 18px;
     font-weight: 200;
@@ -185,18 +192,20 @@ h3 i {
 /*DRAWINGS*/
 
 .drawings {
+    background-color: white;
     text-align: center;
-    margin-top: 150px;
     min-height: 300px;
     padding-bottom: 100px;
+    padding-top: 30px;
 }
 
 .drawings h3 {
     font-size: 25px;
     text-align: center;
     padding-top: 50px;
-    color: white;
+    color: black;
     font-weight: 300;
+    margin-bottom: 50px;
 }
 
 .flex {
@@ -242,7 +251,7 @@ h3 i {
 }
 
 .contact h1 {
-    padding-top: 25vh;
+    padding-top: 30vh;
     font-size: 45px;
     font-weight: 500;
     margin-bottom: -8px;
