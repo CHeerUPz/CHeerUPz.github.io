@@ -11,14 +11,18 @@ a {
     color: black;
 }
 
+.container {
+    margin-left: 80px;
+}
+
 /*HEADER*/
 
 header {
-    width: 100%;
-    height: 70px;
-    background-color: #080808;
+    width: 80px;
+    height: 100vh;
+    float: left;
+    background-color: white;
     position: fixed;
-    top: 0;
     z-index: 9999;
 }
 
@@ -31,27 +35,42 @@ header img {
 }
 
 #navbar {
-    float: right;
-    margin: 15px;
-    padding: 5px;
-}
-
-@media screen and (max-width: 600px) {
-    #navbar {
-        display: none;
-    }
+    height: 500px;
+    margin-top: 0px;
 }
 
 #navbar a {
-    color: white;
-    padding: 20px;
-    font-size: 22px;
-    font-weight: 500;
-    transition: color .5s;
+    display: block;
+    height: 40px;
+    padding-top: 15px;
 }
 
-#navbar a:hover {
-    color: #E9D7A9;
+@media screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+    .container {
+        margin-left: 0;
+    }
+}
+
+#navbar div {
+    transform: rotate(90deg);
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .5s;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#navbar div:hover {
+    transform: none;
+    margin-left: 0px;
+}
+
+#navbar div:hover a {
+    color: rgb(179, 165, 131);
 }
 
 /*WELCOME*/
@@ -70,7 +89,7 @@ header img {
 
 .welcome h2 {
     margin-top: -30px;
-    color: #682424;
+    color: #943535;
     font-weight: 300;
 }
 
@@ -95,7 +114,7 @@ header img {
 }
 
 #three {
-    height: 60vh;
+    height: 40vh;
     background-image: url("https://github.com/CHeerUPz/Portfolio/blob/master/me.jpeg?raw=true");
     margin-bottom: 0;
 }
@@ -116,7 +135,7 @@ header img {
 }
 
 h3 i {
-    color: #682424;
+    color: #943535;
 }
 
 .project-section {
@@ -273,6 +292,6 @@ footer {
 }
 
 footer a {
-    color: #682424;
+    color: #943535;
     font-weight: 500;
 }
